@@ -5,4 +5,5 @@ class Solution(object):
             complement = target - nums[i]
             if complement in seen:
                 return [seen[complement], i]
-            seen[nums[i]] = i
+            seen[nums[i]] = I
+#42 ms
