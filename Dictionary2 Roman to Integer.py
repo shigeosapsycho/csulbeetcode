@@ -25,5 +25,5 @@ class Solution(object):
 
         return answer
 
-# 12 ms
+# 12 ms O(n) complexity
 # Also easier to interpret and I prefer this one other than the other one since it is also faster.
