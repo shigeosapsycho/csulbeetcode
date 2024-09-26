@@ -1,8 +1,6 @@
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         current = head # initialize the pointer
-        if not head:
-            return None
         # Traverse the list while there are at least two nodes to compare (current and current.next)
         while current and current.next: 
             if current.val == current.next.val:
@@ -15,3 +13,4 @@ class Solution:
         return head # After processing the entire list, return the modified head of the list
         
 # 33 ms O(n), LinkedList problem solved on my own!
+# Removed the if statement if the head is None, since the problem states that the list is sorted
