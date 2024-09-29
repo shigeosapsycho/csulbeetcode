@@ -1,4 +1,4 @@
 # csulbleetcode
-my leetcode journey
+my LeetCode and NeetCode journey
 
-i code in python btw
+I mainly code in Python but decided to pick up Java.
