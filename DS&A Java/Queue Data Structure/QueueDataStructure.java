@@ -1,7 +1,7 @@
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class Main1{
+public class QueueDataStructure{
 
     public static void main(String[] args){
         // Queue = FIFO data structure. First-in First-Out (like a line of people)
