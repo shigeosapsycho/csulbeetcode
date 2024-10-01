@@ -1,3 +1,5 @@
+from typing import List
+
 class ListNode:
     def __init__(self, val, next_node = None):
         self.val = val
