@@ -63,4 +63,8 @@ Uses?
 1. Implement Stacks/Queues
 2. GPS navigation
 3. Music playlist
+
+small data set: LinkedList = BAD
+large data ste + lots of searching: LinkedList = BAD
+large data set + lost of inserting/dleeting: LinkedList = GOOD
 */
