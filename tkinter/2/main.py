@@ -3,7 +3,6 @@ from tkinter import messagebox
 
 class MyGUI:
     def __init__(self):
-        
         self.root = tk.Tk()
         
         self.menubar = tk.Menu(self.root)
