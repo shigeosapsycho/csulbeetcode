@@ -43,11 +43,11 @@ LinkedLists = stores Nodes in 2 parts (data + address)
 
 
 Singly Linked List
-                    Node                Node              Node
-            (data | address) -> (data | address) -> (data | address)
+Dummy                Node                Node                Node
+(None | address) -> (data | address) -> (data | address) -> (data | address)
 Doubly Linked List
-                    Node                                Node                        Node
-            (address | data | address) <-> (address | data | address) <-> (address | data | address)
+Dummy                Node                           Node                           Node
+(None| Address) <-> (address | data | address) <-> (address | data | address) <-> (address | data | address)
 
 Advantages?
 1. Dynamic Data Structure (allocates needed memory while running)
