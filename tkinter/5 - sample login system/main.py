@@ -115,3 +115,8 @@ class UserInterface:
 
 # Initialize the interface
 UserInterface()
+
+
+# TODO:
+# if null reject login
+# if check mark for remember me is checked, always keep it checked
