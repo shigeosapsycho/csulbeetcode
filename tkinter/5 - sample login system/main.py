@@ -120,3 +120,4 @@ UserInterface()
 # TODO:
 # if null reject login
 # if check mark for remember me is checked, always keep it checked
+# self.check_state.set(1) no matter what after login and logout
