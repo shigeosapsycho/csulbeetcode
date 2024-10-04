@@ -83,7 +83,6 @@ class UserInterface:
                 
                 # If no match is found
                 CTkMessagebox(title="Login Failed", message="Invalid username or password")
-                print("Invalid username or password")
             else:
                 print("Error fetching usernames or passwords from GitHub")
 
