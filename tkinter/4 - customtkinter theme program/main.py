@@ -5,8 +5,10 @@ class TestButtonThemes():
         self.root = customtkinter.CTk()
         self.root.geometry("350x350")
         self.create_ui()
+        self.mode = "Dark Mode"
+        self.theme = "Blue Theme"
 
-        self.root.title("Test CustomTkinter Colors")
+        self.root.title(self.mode + " and " + self.theme)
         self.root.resizable(False, False)
         self.root.attributes("-topmost", True)
         self.root.mainloop()
@@ -32,26 +34,32 @@ class TestButtonThemes():
 
     def recreate_ui(self):
         self.frame.destroy()
+        self.root.title(self.mode + " and " + self.theme)
         self.create_ui()
         
     def light(self):
         customtkinter.set_appearance_mode("light")
+        self.mode = "Light Mode"
         self.recreate_ui()
         
     def dark(self):
         customtkinter.set_appearance_mode("dark")
+        self.mode = "Dark Mode"
         self.recreate_ui()
 
     def green(self):
         customtkinter.set_default_color_theme("green")
+        self.theme = "Green Theme"
         self.recreate_ui()
 
     def blue(self):
         customtkinter.set_default_color_theme("blue")
+        self.theme = "Blue Theme"
         self.recreate_ui()
 
     def dark_blue(self):
         customtkinter.set_default_color_theme("dark-blue")
+        self.theme = "Dark Blue Theme"
         self.recreate_ui()
 
 TestButtonThemes()
