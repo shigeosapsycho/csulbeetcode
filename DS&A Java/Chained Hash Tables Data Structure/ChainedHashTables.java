@@ -88,3 +88,22 @@ public class ChainedHashTables {
     // The formula is s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
 // When a collision happens a LinkedList is created
 // To avoid collisions is to increase the size of the hash table, the only downside of this is that it requires more memory
+
+// Hashtables is a data structure that stores unique keys to values ex.<Integer, String>
+// Each key/value pair is known as an Entry
+// FAST insertion, look up, deletion of key/value pairs
+// Not ideal for small data sets, great with large data sets
+
+// Hashing is taking a key and computing an integer (formula wil vary based on key and data type)
+// In a hastable, we use the hash % capacity to calculate an index number
+
+//      key.hashCode() % capcaity = index
+
+// Bucket is an indexed storage location for one or more entries
+// It can store multiple Entries in case of a collision (linked similarly a LinkedList)
+
+// Collision is when a hash function generates the same index for more than one key
+// Less collissions, more efficiency. That' is why having a big capacity is useful.
+
+// Runtime Complexity: (No collisions), best case O(1)
+//                     (Collisisons), worst case O(n) <- runtime of a LinkedList
